@@ -1008,7 +1008,7 @@ define(function (require, exports, module) {
       };
       self.new = function () {
         return self.edit({
-          autoupload: true,
+          autoupload: false,
           check_difference: true
         }, function () {
           eqUI.animate.circle(self.tpl, $(event.target).closest('.eqftp__button'));
